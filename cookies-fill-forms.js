@@ -16,8 +16,8 @@
       try { return decodeURIComponent(val).replace(/\+/g, ' '); } catch (e) { return val; }
     }
 
-    var nome      = cleanVal("{{cookie-LeadFirstName}}");
-    var sobrenome = cleanVal("{{cookie-LeadLastName}}");
+    var nome      = cleanVal("{{cookie-LeadFirstName_Visual}}");
+    var sobrenome = cleanVal("{{cookie-LeadLastName_Visual}}");
     var email     = cleanVal("{{cookie-LeadEmail}}");
     var phone     = cleanVal("{{cookie-LeadPhone}}");
 
